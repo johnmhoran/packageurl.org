@@ -48,7 +48,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className={styles.fullHero}>
         <div className={styles.heroInner}>
-          <h1 className={styles.heroTitle}>Welcome to the <br />PURL type JSON Schema*</h1>
+          <h1 className={styles.heroTitle}>Welcome to the <br />PURL type JSON Schema</h1>
           <p className={styles.heroSubtitle}>
             Explore documentation, JSON Schemas, and tools for working with structured data.
           </p>
