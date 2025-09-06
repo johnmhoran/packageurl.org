@@ -81,13 +81,14 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'PURL',
+        // title: 'PURL',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
         },
         style: 'dark',
         items: [
+          { to: '/', label: 'PURL', position: 'left', exact: true },
           {
             type: 'docSidebar',
             sidebarId: 'mySidebar',
@@ -96,13 +97,14 @@ const config = {
           },
           {to: '/docs/PURL_SPECIFICATION', label: 'PURL Specs', position: 'left'},
           {to: '/docs/PURL_TYPES', label: 'PURL Types', position: 'left'},
+          {to: '/docs/purl-standard', label: 'PURL Standard', position: 'left'},
           {
             href: 'https://github.com/package-url',
             label: 'GitHub',
             position: 'right',
           },
           {
-            href: 'https://cyclonedx.slack.com/archives/C06KTE3BWEB',    
+            href: 'https://cyclonedx.slack.com/archives/C06KTE3BWEB',
             label: 'Slack',
             position: 'right',
           },

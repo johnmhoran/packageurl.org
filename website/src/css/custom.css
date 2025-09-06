@@ -29,3 +29,102 @@
   --docusaurus-highlighted-code-line-bg: rgba(127, 99, 217, 0.3);
 }
 
+/* 2025-09-05 Friday 11:38:11.  From yesterday's prior instrance ;-) */
+
+/* 2025-09-04 Thursday 11:19:18.  Try this instead from ChatGPT. */
+/* Override Infima primary colors with a Blue palette */
+:root {
+  --ifm-color-primary: #0066ff;        /* Bright Blue */
+  --ifm-color-primary-dark: #0052cc;   /* Darker Blue */
+  --ifm-color-primary-darker: #003d99; /* Even darker */
+  --ifm-color-primary-darkest: #002966;/* Darkest shade */
+  --ifm-color-primary-light: #3385ff;  /* Light Blue */
+  --ifm-color-primary-lighter: #66a3ff;/* Lighter Blue */
+  --ifm-color-primary-lightest: #99c2ff;/* Lightest Blue */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 102, 255, 0.1); /* subtle blue highlight */
+}
+
+/* Dark mode Blue colors */
+[data-theme='dark'] {
+  --ifm-color-primary: #3385ff;
+  --ifm-color-primary-dark: #2674e6;
+  --ifm-color-primary-darker: #1f5bbf;
+  --ifm-color-primary-darkest: #16428f;
+  --ifm-color-primary-light: #66a3ff;
+  --ifm-color-primary-lighter: #99c2ff;
+  --ifm-color-primary-lightest: #cce0ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 102, 255, 0.3);
+}
+
+/* Adjust navbar link hover color separately. */
+/* Navbar link hover color */
+.navbar__link:hover,
+.navbar__link--active {
+  color: #66a3ff !important; /* Lighter blue for contrast */
+  color: #ffcc00 !important;
+  color: #00ff00 !important;
+
+  color: #ffd700 !important;
+}
+
+/* 2025-09-05 Friday 12:49:50.  Maybe use a different color for hover? */
+.navbar__link:hover {
+    text-decoration: underline;
+}
+
+/* ====================================== */
+
+/* Try to fix the home/landing page navbar link color and behavior when selected. */
+/* Navbar brand (home link) hover + active color */
+.navbar__brand:hover,
+.navbar__title:hover {
+  color: #66a3ff !important; /* match your lighter hover blue */
+}
+
+.navbar__title,
+.navbar__brand {
+  color: var(--ifm-navbar-link-color) !important; /* keeps consistency */
+}
+
+.navbar__title--active {
+  color: #66a3ff !important; /* active home link matches others */
+}
+
+/* 2025-09-04 Thursday 11:41:18.  Landing page link is still white.  Try this. */
+/* Make the brand/title behave like an active link */
+.navbar__brand.navbar__link--active,
+.navbar__title.navbar__link--active {
+  color: #66a3ff !important; /* same as hover/active for others */
+}
+ /* Nope, still white. */
+
+/* ================================================ */
+
+/* Hero section background */
+.hero {
+  background-color: #003d99; /* Deep blue of your palette */
+  background-color: #0439a2;
+  background: linear-gradient(135deg, #039, #37f);
+  background: linear-gradient(135deg, #003399, #3377ff); /* dark → light blue */
+  color: white;              /* Ensures text is readable */
+}
+
+/* Optionally tweak the hero title/subtitle colors */
+.hero__title {
+  color: #ffffff;
+}
+
+.hero__subtitle {
+  color: #cce0ff;
+}
+
+/* ===================== */
+.navbar__brand {
+    margin-right: 0px;
+}
+
+/* 2025-09-05 Friday 12:48:20.  */
+.navbar__logo {
+    margin-right: 0;
+}

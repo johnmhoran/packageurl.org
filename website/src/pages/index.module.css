@@ -5,16 +5,16 @@
   overflow: hidden;
 
   /* CycloneDX primary background */
-  background-image:
+  /* background-image:
     linear-gradient(to right, #08090cff, #6A1B9A, #ff0055ff),
     url('/img/background-image.png');
   background-size: cover;
-  background-blend-mode: overlay;
+  background-blend-mode: overlay; */
 }
 
 
 
-@media screen and (max-width: 996px) {
+/* @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
     background: linear-gradient(135deg, #5c3db7 0%, #7f63d9 100%);
@@ -55,9 +55,16 @@
   color: var(--ifm-color-background);
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
 /* 2025-09-04 Thursday 17:55:59.  */
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;

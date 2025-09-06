@@ -1,10 +1,14 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageContent from '../components/HomepageContent/HomepageContent';
+// import clsx from 'clsx';
+// import Link from '@docusaurus/Link';
+// import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+// import Layout from '@theme/Layout';
+// import HomepageContent from '../components/HomepageContent/HomepageContent';
 
-import Heading from '@theme/Heading';
+// import Heading from '@theme/Heading';
+// import styles from './index.module.css';
+
+import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
 function HomepageHeader() {

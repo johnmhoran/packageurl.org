@@ -11,6 +11,11 @@ const sidebars = {
       id: 'PURL_TYPES', // must match the file's frontmatter `id` or filename (see note below)
       label: 'PURL Types',
     },
+    {
+      type: 'doc',
+      id: 'purl-standard', // must match the file's frontmatter `id` or filename (see note below)
+      label: 'PURL Standard',
+    },
   ],
 };
 
