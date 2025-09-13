@@ -66,6 +66,8 @@
   color: #00ff00 !important;
 
   color: #ffd700 !important;
+  color: #00b3b3 !important;
+  color: #00cccc !important;
 }
 
 /* 2025-09-05 Friday 12:49:50.  Maybe use a different color for hover? */
@@ -127,4 +129,17 @@
 /* 2025-09-05 Friday 12:48:20.  */
 .navbar__logo {
     margin-right: 0;
+}
+
+/* 2025-09-08 Monday 09:03:01.  */
+.custom-get-started {
+  background-color: #000000 !important; /* Black background */
+  border-color: #000000 !important; /* Match border to background */
+  color: #ffffff !important; /* White text for contrast */
+}
+
+.custom-get-started:hover {
+  background-color: #303030 !important; /* Dark gray on hover */
+  border-color: #303030 !important; /* Match border to hover background */
+  color: #ffffff !important; /* Maintain white text */
 }

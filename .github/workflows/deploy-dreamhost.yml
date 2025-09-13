@@ -1,0 +1,48 @@
+name: Deploy Website to Dreamhost via SSH
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: read
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '23.9'
+          cache: 'npm'
+          cache-dependency-path: './website/package-lock.json'
+
+      - name: Install dependencies
+        run: |
+          cd ./website
+          npm ci
+
+      - name: Build website
+        run: |
+          cd ./website
+          npm run build
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DREAMHOST_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.DREAMHOST_SSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --delete -e "ssh -i ~/.ssh/dreamhost_key" \
+            --exclude='.htaccess' \
+            --exclude='error_log' \
+            --exclude='cgi-bin/' \
+            ./website/build/ \
+            jmhoran@pdx1-shared-a3-09.dreamhost.com:/home/jmhoran/packageurl.jmh2025.xyz/

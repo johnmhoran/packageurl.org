@@ -57,6 +57,11 @@
   cursor: pointer;
 } */
 
+/* 2025-09-08 Monday 08:51:40.  */
+.buttons .button--black {
+    background-color: #000000 !important;
+}
+
 /* 2025-09-04 Thursday 17:55:59.  */
 .heroBanner {
   padding: 4rem 0;

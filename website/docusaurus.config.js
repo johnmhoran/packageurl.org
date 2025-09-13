@@ -23,7 +23,9 @@ const config = {
   url: 'https://package-url.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/packageurl.org/',
+//   baseUrl: '/packageurl.org/',
+// 2025-09-08 Monday 23:49:20.  This did not loaded via FileZilla on my new DreamHost account for packageurl.jmh2025.xyz subdomain.  DreamHost suggests changing baseURL to /
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

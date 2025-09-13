@@ -61,7 +61,8 @@ export default function Home() {
             {/* <Link className="button button--primary button--lg" to="/docs/index"> */}
             {/* <Link className="button button--primary button--lg" to="/docs/"> */}
             {/* 2025-09-04 Thursday 13:24:07.  Did this ^ throw a broken-links error?  Try this: */}
-            <Link className="button button--primary button--lg" to="/docs/PURL_SPECIFICATION">
+            {/* <Link className="button button--primary button--lg" to="/docs/PURL_SPECIFICATION"> */}
+            <Link className="button button--primary button--lg custom-get-started" to="/docs/PURL_SPECIFICATION">
               Get Started
             </Link>
           </div>
