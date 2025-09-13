@@ -56,6 +56,7 @@ export default function Home() {
           <p className={styles.heroSubtitle}>
             Explore documentation, JSON Schemas, and tools for working with structured data.
           </p>
+          <p>2025-09-13 Saturday 00:55:18.  This line was added after the new SSH key and GH Actions setup was completed.  If that effort was successful, this line will appear up on the DreamHost subdomain after I commit and push to 'main'.  We'll see. . . .</p>
           <div className={styles.heroButtons}>
             {/* <Link className="button button--primary button--lg" to="/docs/intro"> */}
             {/* <Link className="button button--primary button--lg" to="/docs/index"> */}
