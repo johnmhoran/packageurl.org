@@ -8,6 +8,16 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// 2025-09-13 Saturday 13:25:26.  JMH timestamp test
+const getDeploymentTimestamp = () => {
+  const now = new Date();
+  const date = now.toISOString().split('T')[0]; // 2025-09-13
+  const time = now.toISOString().split('T')[1].split('.')[0]; // 23:45:32
+  const weekday = now.toLocaleDateString('en-US', {weekday: 'long'});
+//   return `${date} ${time} UTC (${weekday})`;
+  return `${date} ${time} UTC`;
+};
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'packageurl.org',
@@ -200,7 +210,10 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} PURL, Inc. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} PURL, Inc. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} Your Project Name. Last deployed: ${getDeploymentTimestamp()}`,
+        // copyright: `Copyright © ??  License: ??<br />Built with Docusaurus &nbsp; | &nbsp; Last deployed: ${getDeploymentTimestamp()}`,
+        copyright: `Copyright © _____ &nbsp; | &nbsp; License: _____ &nbsp; | &nbsp; Built with Docusaurus <br />Last deployed: ${getDeploymentTimestamp()}`,
       },
       prism: {
         theme: prismThemes.github,
