@@ -34,9 +34,11 @@ jobs:
       - name: Setup SSH key
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.DREAMHOST_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H ${{ secrets.DREAMHOST_SSH_HOST }} >> ~/.ssh/known_hosts
+          cat > ~/.ssh/dreamhost_key << 'EOF'
+          ${{ secrets.DREAMHOST_SSH_PRIVATE_KEY }}
+          EOF
+          chmod 600 ~/.ssh/dreamhost_key
+          ssh-keyscan -H pdx1-shared-a3-09.dreamhost.com >> ~/.ssh/known_hosts
 
       - name: Deploy via rsync
         run: |
