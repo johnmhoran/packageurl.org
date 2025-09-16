@@ -56,14 +56,15 @@ export default function Home() {
           <p className={styles.heroSubtitle}>
             Explore documentation, JSON Schemas, and tools for working with structured data.
           </p>
-          <p>2025-09-13 Saturday 00:55:18.  This line was added after the new SSH key and GH Actions setup was completed.  If that effort was successful, this line will appear up on the DreamHost subdomain after I commit and push to 'main'.  We'll see. . . .</p>
+
           <div className={styles.heroButtons}>
             {/* <Link className="button button--primary button--lg" to="/docs/intro"> */}
             {/* <Link className="button button--primary button--lg" to="/docs/index"> */}
             {/* <Link className="button button--primary button--lg" to="/docs/"> */}
             {/* 2025-09-04 Thursday 13:24:07.  Did this ^ throw a broken-links error?  Try this: */}
             {/* <Link className="button button--primary button--lg" to="/docs/PURL_SPECIFICATION"> */}
-            <Link className="button button--primary button--lg custom-get-started" to="/docs/PURL_SPECIFICATION">
+            {/* <Link className="button button--primary button--lg custom-get-started" to="/docs/PURL_SPECIFICATION"> */}
+            <Link className="button button--primary button--lg custom-get-started" to="/docs/package-url/package-url-overview">
               Get Started
             </Link>
           </div>

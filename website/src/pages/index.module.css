@@ -91,6 +91,8 @@
   background: linear-gradient(135deg, #003380, #cc0000); /* darker blue gradient */
   /* 2025-08-30 Saturday 23:42:31.  I like this one: */
   background: linear-gradient(135deg, #003399, #3377ff); /* darker blue gradient */
+
+  background: #1a427a;
   color: white;
   text-align: center;
   padding: 4rem 2rem;
