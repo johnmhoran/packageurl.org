@@ -35,7 +35,9 @@ const config = {
     // For GitHub pages deployment, it is often '/<projectName>/'
     //   baseUrl: '/packageurl.org/',
     // 2025-09-08 Monday 23:49:20.  This did not loaded via FileZilla on my new DreamHost account for packageurl.jmh2025.xyz subdomain.  DreamHost suggests changing baseURL to /
-    baseUrl: '/',
+    // baseUrl: '/',
+    // 2025-09-15 Monday 22:46:40.  Experiment to try to make GH Pages deployment succeed.
+      baseUrl: '/packageurl.org/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
