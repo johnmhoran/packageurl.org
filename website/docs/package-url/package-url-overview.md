@@ -1,9 +1,9 @@
 ---
 id: package-url-overview
-title: Package-URL
+title: Overview
 ---
 
-# Package-URL
+# Overview
 
 ## Introduction
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

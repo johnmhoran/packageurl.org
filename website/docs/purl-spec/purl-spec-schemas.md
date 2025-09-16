@@ -1,8 +1,7 @@
 ---
 id: purl-spec-schemas
-title: Package-URL JSON Schemas
-sidebar_label: Package-URL JSON Schemas
-slug: purl-spec-schemas
+title: Package-URL JSON Schemass
+sidebar_label: Schemas
 ---
 
 # Package-URL JSON Schemas
