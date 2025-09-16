@@ -1,4 +1,27 @@
 # Adopters
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+(alphabetical order)
+
+- [CycloneDX](https://github.com/CycloneDX): A lightweight software
+  bill-of-material (SBOM) specification
+- [Ecosyste.ms](https://ecosyste.ms): Indexes and analyzes open source packages, ecosystems, and their dependencies.
+- [GitHub Dependency Submission API](https://docs.github.com/en/rest/dependency-graph/dependency-submission): allows third-party tools
+  to submit dependency data to GitHub for inclusion in a repository's dependency graph.
+- [OSS Index](https://ossindex.sonatype.org): A free catalog of Open Source
+  Components and scanning tools to help developers identify vulnerable components
+- [OSS Review Toolkit](https://oss-review-toolkit.org/): A suite of tools to
+  assist with automating Open Source compliance checks.
+- [OSV Schema](https://ossf.github.io/osv-schema/) and [OSV.dev](https://osv.dev):
+  Open Source Vulnerability Schema and distributed vulnerability database
+- [OWASP Dependency-Track](https://www.owasp.org/index.php/OWASP_Dependency_Track_Project):
+  Open source component analysis platform
+- [ReversingLabs Spectra Assure](https://www.reversinglabs.com/products/software-supply-chain-security):
+  Software supply chain security platform for the enterprise to detect threats and exposures
+- [Scancode Toolkit](https://github.com/nexB/scancode-toolkit): Reports
+  PURLs from parsed package manifests using https://github.com/package-url/packageurl-python
+- [Sonatype Nexus Lifecycle](https://www.sonatype.com/product-nexus-lifecycle):
+  Enterprise grade Open Source component management
+- [SPDX](https://spdx.dev): A data exchange standard for human-readable and
+  machine-processable software bill-of-materials (SBOM)
+
+See also https://github.com/package-url/purl-spec/blob/main/ADOPTERS.md.

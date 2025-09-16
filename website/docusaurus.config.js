@@ -105,7 +105,7 @@ const config = {
                 },
                 style: 'dark',
                 items: [
-                    { to: '/', label: 'PURL', position: 'left', exact: true },
+                    { to: '/', label: 'Home', position: 'left', exact: true },
                     //   {
                     //     type: 'docSidebar',
                     //     sidebarId: 'mySidebar',

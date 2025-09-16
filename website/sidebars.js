@@ -20,40 +20,40 @@ const sidebars = {
     // New group 1
     package_url: [
         'package-url/package-url-overview',
-        'package-url/package-url-projects',
         'package-url/package-url-purl-and-vers',
+        'package-url/package-url-projects',
     ],
 
     // New group 2
     purl_spec: [
-        'purl-spec/purl-spec-adopters',
-        'purl-spec/purl-spec-documentation',
         'purl-spec/purl-spec-overview',
         'purl-spec/purl-spec-purl-types',
+        'purl-spec/purl-spec-documentation',
         'purl-spec/purl-spec-schemas',
+        'purl-spec/purl-spec-adopters',
     ],
 
     // Group 3
     vers_spec: [
-        'vers-spec/vers-spec-adopters',
-        'vers-spec/vers-spec-documentation',
         'vers-spec/vers-spec-overview',
+        'vers-spec/vers-spec-documentation',
         'vers-spec/vers-spec-schemas',
+        'vers-spec/vers-spec-adopters',
     ],
 
     // Group 4
     participate: [
         'participate/participate-contribute',
-        'participate/participate-events',
         'participate/participate-meetings',
+        'participate/participate-events',
     ],
 
     // Group 5
     about: [
         'about/about-guiding-principles',
-        'about/about-history',
-        'about/about-related-specs',
         'about/about-supporters',
+        'about/about-related-specs',
+        'about/about-history',
     ],
 };
 

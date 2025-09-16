@@ -1,4 +1,22 @@
-# Overview
+---
+id: purl-spec-overview
+title: Overview
+sidebar_label: Overview
+---
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+# Introduction
+
+Software ecosystems have evolved into highly interconnected networks of components, packages, and dependencies. Managing this complexity demands a robust, uniform mechanism to identify and track software packages across diverse ecosystems and tools. Package-URL (PURL) was developed to address this challenge by providing a simple, consistent, and flexible approach to identifying software packages with precision and clarity.
+
+PURL introduces a standardized URL-based syntax that uniquely identifies software packages, independent of their ecosystem or distribution channel. Unlike traditional identification methods, PURL embeds critical metadata directly into its structure, enabling efficient, accurate package identification at scale. This standardization ensures interoperability between tools and ecosystems, fostering greater collaboration and reducing ambiguity in software supply chain management.
+
+Challenges addressed by PURL:
+
+- **Ambiguity in Package Identification:** With diverse naming conventions across ecosystems, identifying software packages reliably has historically been a challenge. PURL eliminates this ambiguity by creating a universal identifier with a predictable structure.
+- **Cross-Ecosystem Interoperability:** Developers, organizations, and tools often work across multiple ecosystems, each with its own package management systems. PURL harmonizes these differences, enabling seamless interoperability.
+- **Enhanced Traceability and Risk Management:** In an era where supply chain security is critical, PURL provides the foundation for identifying and tracing packages to their origins, dependencies, and potential vulnerabilities.
+- **Tooling and Automation:** By standardizing package identification, PURL simplifies tooling development, automation, and integration for tasks such as software composition analysis, vulnerability management, and license compliance.
+
+As software supply chain security becomes a global priority, formalizing PURL as an international standard ensures its adoption and consistent implementation. Standardization under Ecma International Technical Committee 54 (TC54) positions PURL as a foundational building block for secure, transparent, and efficient software ecosystems worldwide.
+
+By enabling a universally recognized and implementable specification, PURL aligns with global efforts to improve the security, reliability, and accountability of software supply chains. Its adoption ensures that organizations and developers can rely on a common language to manage software packages across the diverse and rapidly evolving software landscape.

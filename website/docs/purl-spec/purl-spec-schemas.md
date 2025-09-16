@@ -1,4 +1,26 @@
-# Schemas
+---
+id: purl-spec-schemas
+title: Package-URL JSON Schemas
+sidebar_label: Package-URL JSON Schemas
+slug: purl-spec-schemas
+---
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+# Package-URL JSON Schemas
+
+## PURL Type Definition
+
+The PURL Type Definition JSON Schema is the reference data model that is used to define PURL types in a structured way.
+
+Each PURL type is specified in a JSON document that matches this schema. These JSON documents are then used to generate PURL type documentation and to support PURL libraries and tools so that they can more easily parse, build, and validate PURLs by type in a consistent and standardized manner across programming languages and technology stacks.
+
+The PURL Type Definition JSON Schema is at: [https://github.com/package-url/purl-spec/blob/main/schemas/purl-type-definition.schema.json](https://github.com/package-url/purl-spec/blob/main/schemas/purl-type-definition.schema.json) .
+
+## PURL Tests
+
+The PURL Test JSON Schema provides the structure for test at two levels:
+
+- Specification: These are tests for the specification across purl types The current set of specification test files are available on GitHub at: [https://github.com/package-url/purl-spec/tree/main/tests/spec/](https://github.com/package-url/purl-spec/tree/main/tests/spec/)
+
+- Types: These tests are organized as one test file per PURL type. A PURL type test is required for adding or changing a purl type. The current set of PURL type test files are available on GitHub at: [https://github.com/package-url/purl-spec/tree/main/tests/types/](https://github.com/package-url/purl-spec/tree/main/tests/types/)
+
+The PURL Test JSON Schema is at: [https://github.com/package-url/purl-spec/blob/main/schemas/purl-test.schema.json](https://github.com/package-url/purl-spec/blob/main/schemas/purl-test.schema.json) .

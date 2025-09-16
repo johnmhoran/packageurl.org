@@ -1,4 +1,58 @@
 # PURL Types
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+## Package-URL type definitions
+
+Each package manager, platform, type, or ecosystem has its own conventions
+and protocols to identify, locate, and provision software packages.
+
+The package `type` is the component of a Package-URL that is used to
+capture this information with a short string such as `maven`, `npm`,
+`nuget`, `gem`, `pypi`, etc.
+
+PURL type definitions are maintained in a set of JSON Schema files with a
+separate file for each `purl` `type`. Each `purl` `type` has a corresponding
+file of automatically generated documentation. There is also a simple index
+of all currently registered purl types.
+
+## Where to find PURL type information
+
+- In individual JSON files, one for each `purl` `type` definition at:
+  https://github.com/package-url/purl-spec/tree/main/types
+
+- As Markdown documentation, generated from each `purl` `type` JSON
+  definition at:
+  https://github.com/package-url/purl-spec/tree/main/types-doc
+
+- In the JSON Index listing of all registered PURL types at:
+  https://github.com/package-url/purl-spec/tree/main/purl-types-index.json
+
+## How PURL Types are maintained
+
+PURL type definitions are maintained as JSON definition files and JSON
+test files in the PURL specification repository. These JSON files serve as
+the source of truth and define the structure of each PURL type, including:
+
+- Namespace and name formatting rules
+- Supported qualifiers
+- Repository requirements
+- Mapping of PURL concepts to the native ecosystem concepts
+
+On commit, a job automatically:
+
+- Checks that all JSON files are schema-valid
+- Formats all the JSON files
+- Generates the ``purl-types-index.json`` file containing a list of defined
+  registered PURL types
+- Generates human-readable documentation for each type
+
+## How to Propose a New PURL Type
+
+To propose a new PURL type, create an **issue** and a corresponding
+**pull request** in the repository with:
+
+- a new JSON definition file under `types/`.
+- a new JSON test file file under `tests/types/`.
+
+Ensure that your proposal follows the **PURL Type Definition Schema** and
+includes all required fields. For this see the README-dev.md for details to
+run local checks.
