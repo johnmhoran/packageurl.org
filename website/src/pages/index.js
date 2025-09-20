@@ -99,88 +99,90 @@ export default function Home() {
                 ))}
             </div> */}
 
-            <div className={styles.packageGrid}>
+            <div className={styles.packageGridWrapper}>
+                <div className={styles.packageGrid}>
 
-                <a
-                    href="https://github.com/npm/cli"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.packageCell}
-                >
-                    <img src="https://github.com/npm.png" alt="npm" className={styles.packageLogo} />
-                    <span>npm</span>
-                </a>
+                    <a
+                        href="https://github.com/npm/cli"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.packageCell}
+                    >
+                        <img src="https://github.com/npm.png" alt="npm" className={styles.packageLogo} />
+                        <span>npm</span>
+                    </a>
 
-                <a
-                    href="https://github.com/pypi"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.packageCell}
-                >
-                    <img src="https://github.com/pypi.png" alt="PyPI" className={styles.packageLogo} />
-                    <span>PyPI</span>
-                </a>
+                    <a
+                        href="https://github.com/pypi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.packageCell}
+                    >
+                        <img src="https://github.com/pypi.png" alt="PyPI" className={styles.packageLogo} />
+                        <span>PyPI</span>
+                    </a>
 
-                <a
-                    href="https://rubygems.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.packageCell}
-                >
-                    <img src="https://github.com/rubygems.png" alt="gem" className={styles.packageLogo} />
-                    <span>gem</span>
-                </a>
+                    <a
+                        href="https://rubygems.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.packageCell}
+                    >
+                        <img src="https://github.com/rubygems.png" alt="gem" className={styles.packageLogo} />
+                        <span>gem</span>
+                    </a>
 
-                <a
-                    href="https://github.com/golang"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.packageCell}
-                >
-                    <img src="https://github.com/golang.png" alt="golang" className={styles.packageLogo} />
-                    <span>golang</span>
-                </a>
+                    <a
+                        href="https://github.com/golang"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.packageCell}
+                    >
+                        <img src="https://github.com/golang.png" alt="golang" className={styles.packageLogo} />
+                        <span>golang</span>
+                    </a>
 
-                <a
-                    href="https://github.com/conan-io/conan"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.packageCell}
-                >
-                    <img src="https://avatars.githubusercontent.com/u/15212165?s=48&v=4" alt="conan" className={styles.packageLogo} />
-                    <span>conan</span>
-                </a>
+                    <a
+                        href="https://github.com/conan-io/conan"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.packageCell}
+                    >
+                        <img src="https://avatars.githubusercontent.com/u/15212165?s=48&v=4" alt="conan" className={styles.packageLogo} />
+                        <span>conan</span>
+                    </a>
 
-                <a
-                    href="https://www.nuget.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.packageCell}
-                >
-                    <img src="https://github.com/nuget.png" alt="nuget" className={styles.packageLogo} />
-                    <span>nuget</span>
-                </a>
+                    <a
+                        href="https://www.nuget.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.packageCell}
+                    >
+                        <img src="https://github.com/nuget.png" alt="nuget" className={styles.packageLogo} />
+                        <span>nuget</span>
+                    </a>
 
-                <a
-                    href="https://bitbucket.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.packageCell}
-                >
-                    <img src="/img/logo-light_Bitbucket_logo_brand_RGB_ 2x.png" alt="bitbucket" className={styles.packageLogo} />
-                    <span>bitbucket</span>
-                </a>
+                    <a
+                        href="https://bitbucket.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.packageCell}
+                    >
+                        <img src="/img/logo-light_Bitbucket_logo_brand_RGB_ 2x.png" alt="bitbucket" className={styles.packageLogo} />
+                        <span>bitbucket</span>
+                    </a>
 
-                <a
-                    href="https://github.com/CocoaPods/CocoaPods"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.packageCell}
-                >
-                    <img src="https://github.com/cocoapods.png" alt="cocoapods" className={styles.packageLogo} />
-                    <span>cocoapods</span>
-                </a>
+                    <a
+                        href="https://github.com/CocoaPods/CocoaPods"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.packageCell}
+                    >
+                        <img src="https://github.com/cocoapods.png" alt="cocoapods" className={styles.packageLogo} />
+                        <span>cocoapods</span>
+                    </a>
 
+                </div>
             </div>
 
 

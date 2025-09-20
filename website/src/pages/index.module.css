@@ -198,3 +198,23 @@
     object-fit: contain;
     margin-bottom: 0.5rem;
 }
+
+
+/* 2025-09-20 Saturday 14:53:09.  */
+.packageGridWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* center the grid horizontally */
+}
+
+.packageGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    /* sets a limit like your footer container */
+    width: 100%;
+    /* allows it to shrink on smaller screens */
+    padding: 2rem;
+}
