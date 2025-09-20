@@ -52,9 +52,9 @@ export default function Home() {
             {/* Hero Section */}
             <div className={styles.fullHero}>
                 <div className={styles.heroInner}>
-                    <h1 className={styles.heroTitle}>Welcome to the <br />PURL type JSON Schema</h1>
+                    <h1 className={styles.heroTitle}>Welcome to PackageURL.org</h1>
                     <p className={styles.heroSubtitle}>
-                        Explore documentation, JSON Schemas, and tools for working with structured data.
+                        Explore documentation, JSON Schemas, and tools for working with software packages.
                     </p>
 
                     <div className={styles.heroButtons}>
@@ -98,6 +98,31 @@ export default function Home() {
                     </a>
                 ))}
             </div> */}
+
+            {/* <div style={{ display: 'grid', padding: '2rem', paddingBottom: '0', textAlign: 'center', fontSize: '30px' }}>
+                Package-URL (PURL) implementations include:
+            </div> */}
+
+            {/* <div style={{ display: 'flex', padding: '2rem', paddingBottom: '0', textAlign: 'center', borderBottom: 'solid 1px #000000', maxWidth: '1200px', width: '100%', justifyContent: 'center' }}>
+                <h1>Package-URL (PURL) implementations</h1>
+            </div> */}
+
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div
+                    style={{
+                        display: 'flex',
+                        padding: '2rem',
+                        paddingBottom: '0',
+                        textAlign: 'center',
+                        // borderBottom: 'solid 1px #000000',
+                        maxWidth: '1200px',
+                        width: '100%',
+                        justifyContent: 'center'
+                    }}
+                >
+                    <h1>Package-URL (PURL) implementations</h1>
+                </div>
+            </div>
 
             <div className={styles.packageGridWrapper}>
                 <div className={styles.packageGrid}>
@@ -185,7 +210,26 @@ export default function Home() {
                 </div>
             </div>
 
+            {/* <div style={{ display: 'grid', padding: '2rem', paddingBottom: '0', textAlign: 'center', borderBottom: 'solid 1px #000000' }}>
+                <h1>The basics</h1>
+            </div> */}
 
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div
+                    style={{
+                        display: 'flex',
+                        padding: '2rem',
+                        paddingBottom: '0',
+                        textAlign: 'center',
+                        // borderBottom: 'solid 1px #000000',
+                        maxWidth: '1200px',
+                        width: '100%',
+                        justifyContent: 'center'
+                    }}
+                >
+                    <h1>Basic Orientation</h1>
+                </div>
+            </div>
 
 
             {/* Two-Column Section */}
@@ -219,7 +263,7 @@ export default function Home() {
                 {/* Right column: example announcements */}
                 <div className={styles.column}>
                     <h2>Project News</h2>
-                    <div className={styles.card}>
+                    <div className={styles.card} >
                         <h3>Release 1.0.0</h3>
                         <p>Coming soon . . .</p>
                     </div>
