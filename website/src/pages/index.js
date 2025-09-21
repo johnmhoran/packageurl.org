@@ -54,7 +54,8 @@ export default function Home() {
                 <div className={styles.heroInner}>
                     <h1 className={styles.heroTitle}>Welcome to PackageURL.org</h1>
                     <p className={styles.heroSubtitle}>
-                        Explore documentation, JSON Schemas, and tools for working with software packages.
+                        {/* Explore documentation, JSON Schemas, and tools for working with software packages. */}
+                        A simple, consistent, and flexible approach for identifying software packages with precision and clarity.
                     </p>
 
                     <div className={styles.heroButtons}>
@@ -221,13 +222,12 @@ export default function Home() {
                         padding: '2rem',
                         paddingBottom: '0',
                         textAlign: 'center',
-                        // borderBottom: 'solid 1px #000000',
                         maxWidth: '1200px',
                         width: '100%',
                         justifyContent: 'center'
                     }}
                 >
-                    <h1>Basic Orientation</h1>
+                    <h1>Schemas, standard and more</h1>
                 </div>
             </div>
 
@@ -243,25 +243,29 @@ export default function Home() {
             <li><Link to="/schemas/purl-types-index.schema.json">purl-types-index.schema.json</Link></li>
           </ul>
           <h2>JMH link to the GH repo</h2> */}
-                    <ul>
-                        <li><a class="a_page" href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-test.schema.json" target="_blank">purl-test.schema.json</a></li>
-                        <li><a class="a_page" href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-type-definition.schema.json" target="_blank">purl-type-definition.schema.json</a></li>
-                        <li><a class="a_page" href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-types-index.schema.json" target="_blank">purl-types-index.schema.json</a></li>
-                    </ul>
+                    <div className={styles.card} >
+                        <ul>
+                            <li><a class="a_page" href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-test.schema.json" target="_blank">purl-test.schema.json</a></li>
+                            <li><a class="a_page" href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-type-definition.schema.json" target="_blank">purl-type-definition.schema.json</a></li>
+                            <li><a class="a_page" href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-types-index.schema.json" target="_blank">purl-types-index.schema.json</a></li>
+                        </ul>
+                    </div>
 
                     <h2>Standard and Specification</h2>
-                    <ul>
-                        <li>
-                            <Link to="https://github.com/package-url/purl-spec/blob/main/purl-standard.md" className="a_page">purl-standard.md</Link>
-                        </li>
-                        <li>
-                            <Link to="https://github.com/package-url/purl-spec/blob/main/purl-specification.md" className="a_page">purl-specification.md</Link>
-                        </li>
-                    </ul>
+                    <div className={styles.card} >
+                        <ul>
+                            <li>
+                                <Link to="https://github.com/package-url/purl-spec/blob/main/purl-standard.md" className="a_page">purl-standard.md</Link>
+                            </li>
+                            <li>
+                                <Link to="https://github.com/package-url/purl-spec/blob/main/purl-specification.md" className="a_page">purl-specification.md</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
                 {/* Right column: example announcements */}
-                <div className={styles.column}>
+                {/* <div className={styles.column}>
                     <h2>Project News</h2>
                     <div className={styles.card} >
                         <h3>Release 1.0.0</h3>
@@ -272,7 +276,28 @@ export default function Home() {
                         <p>Join our next PURL community call on 2025-09-03 to discuss the status of the PURL standard submission to Ecma.</p>
                         <p>The schedules for PURL community and TC54-TG2 calls are available at <a class="a_page" href="https://calendar.google.com/calendar/u/0/embed?src=c_884decde5a152902bb51a62f89550d0f3748484534f08c63792f2e654f2a7ebc@group.calendar.google.com" target="_blank">OWASP Software Supply Chain Community Calendar</a>.</p>
                     </div>
+                </div> */}
+
+                <div className={styles.column}>
+                    <h2>Releases</h2>
+                    {/* <ul>
+            <li><Link to="/schemas/purl-test.schema.json">purl-test.schema.json</Link></li>
+            <li><Link to="/schemas/purl-type-definition.schema.json">purl-type-definition.schema.json</Link></li>
+            <li><Link to="/schemas/purl-types-index.schema.json">purl-types-index.schema.json</Link></li>
+          </ul>
+          <h2>JMH link to the GH repo</h2> */}
+                    <div className={styles.card} >
+                        <h3>Release 1.0.0</h3>
+                        <p>Coming soon . . .</p>
+                    </div>
+
+                    <h2>Community Call</h2>
+                    <div className={styles.card}>
+                        <p>Join our next PURL community call on 2025-09-03 to discuss the status of the PURL standard submission to Ecma.</p>
+                        <p>The schedules for PURL community and TC54-TG2 calls are available at <a class="a_page" href="https://calendar.google.com/calendar/u/0/embed?src=c_884decde5a152902bb51a62f89550d0f3748484534f08c63792f2e654f2a7ebc@group.calendar.google.com" target="_blank">OWASP Software Supply Chain Community Calendar</a>.</p>
+                    </div>
                 </div>
+
             </div>
         </Layout>
     );
