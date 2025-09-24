@@ -194,7 +194,9 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className={styles.packageCell}
                     >
-                        <img src="/img/logo-light_Bitbucket_logo_brand_RGB_ 2x.png" alt="bitbucket" className={styles.packageLogo} />
+                        {/* <img src="/img/logo-light_Bitbucket_logo_brand_RGB_ 2x.png" alt="bitbucket" className={styles.packageLogo} /> */}
+                        {/* <img src="/img/logo-light_Bitbucket_logo_brand_RGB_ 2x.png" alt="bitbucket" /> */}
+                        <img src="/img/Bitbucket_mark_brand_RGB_2x.png" alt="bitbucket" className={styles.packageLogo} />
                         <span>bitbucket</span>
                     </a>
 
