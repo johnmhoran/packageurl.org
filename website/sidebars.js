@@ -55,6 +55,38 @@ const sidebars = {
         'about/about-related-specs',
         'about/about-history',
     ],
+
+    // test_nesting: [
+
+
+    //     // 'schemas/some-md-file',
+    //     'some-md-file',
+    //     {
+    //         type: 'category',  // This creates the nested group
+    //         label: 'Nested schemas',  // The clickable category title in the sidebar
+    //         collapsed: true,  // Optional: Starts collapsed (true) or expanded (false). Default is true.
+    //         items: [  // Array of nested items (can be docs, links, or even more categories)
+    //             // 'purl-spec/nested/nested01',  // Doc ID for docs/nested/page1.md
+    //             // 'purl-spec/nested/nested02',  // Doc ID for docs/nested/page2.md
+
+    //             // {
+    //             //     type: 'link',
+    //             //     label: 'PURL Type Definition Schema!!!',
+    //             //     href: '/schemas/purl-type-definition.schema-1.0.html',
+    //             // },
+
+    //             {
+    //                 type: 'link',
+    //                 label: 'PURL Type Definition Schema!!!',
+    //                 // href: '/schemas/purl-type-definition.schema-1.0.html',
+    //                 href: 'http://localhost:3000/website/static/schemas/purl-type-definition.schema-1.0.html',
+    //                 // target: '_blank',
+    //                 // rel: 'noopener noreferrer',
+    //             },
+    //         ],
+    //     },
+
+    // ],
 };
 
 export default sidebars;

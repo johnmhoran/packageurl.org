@@ -40,7 +40,9 @@ const config = {
     // 2025-09-15 Monday 23:05:39.  GH Pages succeeds, DreamHost fails
     //   baseUrl: '/packageurl.org/',
     // 2025-09-15 Monday 23:05:23.  DreamHost succeeds, GH Pages fails:
-      baseUrl: '/',
+    baseUrl: '/',
+    // 2025-09-25 Thursday 10:41:01.  Will this fix the file-not-found when I try to link to the json-schema-for-humans .html files?
+    staticDirectories: ['static'], // Ensure static folder is included
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
@@ -106,6 +108,8 @@ const config = {
                 style: 'dark',
                 items: [
                     { to: '/', label: 'Home', position: 'left', exact: true },
+                    // { to: '/schemas/purl-type-definition.schema-1.0.html', label: 'Schemas', position: 'left' },
+                    // { href: '/schemas/purl-type-definition.schema-1.0.html', label: 'Schemas', position: 'left' },
                     //   {
                     //     type: 'docSidebar',
                     //     sidebarId: 'mySidebar',
@@ -148,6 +152,14 @@ const config = {
                         label: 'About',
                     },
 
+                    // {
+                    //     type: 'doc',
+                    //     sidebarId: 'test_nesting',
+                    //     position: 'left',
+                    //     label: 'test-nesting',
+                    //     docId: 'some-md-file',
+                    // },
+
                     {
                         href: 'https://github.com/package-url',
                         label: 'GitHub',
@@ -157,6 +169,44 @@ const config = {
                         href: 'https://cyclonedx.slack.com/archives/C06KTE3BWEB',
                         label: 'Slack',
                         position: 'right',
+                    },
+                    // 2025-09-25 Thursday 15:22:40.  Try this dropdown
+                    {
+                        type: 'dropdown',
+                        label: 'Schemas',
+                        position: 'right',
+                        items: [
+                            // {
+                            //     href: '/schemas/purl-type-definition.schema-1.0.html',
+                            //     label: 'PURL Type Definition',
+                            //     target: '_blank',
+                            // },
+                            // {
+                            //     href: '/schemas/other-schema-1.0.html',
+                            //     label: 'Other Schema',
+                            //     target: '_blank',
+                            // },
+                            // {
+                            //     href: '/schemas/third-schema-1.0.html',
+                            //     label: 'Third Schema',
+                            //     target: '_blank',
+                            // },
+                            {
+                                href: '/JSFH-htmls-2025-09-25-template_name=js/purl-type-definition.schema-1.0-2025-09-25-01.html',
+                                label: 'Package-URL Type Definition ↗',
+                                target: '_blank',
+                            },
+                            {
+                                href: '/JSFH-htmls-2025-09-25-template_name=js/purl-test.schema-2025-09-25-01.html',
+                                label: 'Package-URL test definition ↗',
+                                target: '_blank',
+                            },
+                            {
+                                href: '/JSFH-htmls-2025-09-25-template_name=js/purl-types-index.schema-1.0-2025-09-25-01.html',
+                                label: 'Package-URL types index ↗',
+                                target: '_blank',
+                            },
+                        ],
                     },
                 ],
             },
