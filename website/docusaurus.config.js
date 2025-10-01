@@ -192,17 +192,20 @@ const config = {
                             //     target: '_blank',
                             // },
                             {
-                                href: '/JSFH-htmls-2025-09-25-template_name=js/purl-type-definition.schema-1.0-2025-09-25-01.html',
+                                // href: '/JSFH-htmls-2025-09-25-template_name=js/purl-type-definition.schema-1.0-2025-09-25-01.html',
+                                href: '/schemas/purl-type-definition.schema-1.0.html',
                                 label: 'Package-URL Type Definition ↗',
                                 target: '_blank',
                             },
                             {
-                                href: '/JSFH-htmls-2025-09-25-template_name=js/purl-test.schema-2025-09-25-01.html',
+                                // href: '/JSFH-htmls-2025-09-25-template_name=js/purl-test.schema-2025-09-25-01.html',
+                                href: '/schemas/purl-test.schema.html',
                                 label: 'Package-URL test definition ↗',
                                 target: '_blank',
                             },
                             {
-                                href: '/JSFH-htmls-2025-09-25-template_name=js/purl-types-index.schema-1.0-2025-09-25-01.html',
+                                // href: '/JSFH-htmls-2025-09-25-template_name=js/purl-types-index.schema-1.0-2025-09-25-01.html',
+                                href: '/schemas/purl-types-index.schema-1.0.html',
                                 label: 'Package-URL types index ↗',
                                 target: '_blank',
                             },

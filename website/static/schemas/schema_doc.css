@@ -7,6 +7,7 @@ body {
 
 .btn.btn-link {
     font-size: 18px;
+    user-select: text;
 }
 
 .jsfh-animated-property {
@@ -59,19 +60,22 @@ body {
     content: '- Read Less';
 }
 
-.property-name {
-    font-size: 1rem;
-}
-
 .badge {
     font-size: 100%;
 	margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
 
-.badge.value-type,.badge.no-additional,.badge.default-value {
+.badge.value-type {
     font-size: 120%;
     margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+
+.badge.default-value {
+    font-size: 120%;
+    margin-left: 5px;
     margin-bottom: 10px;
 }
 
@@ -79,8 +83,8 @@ body {
     display: inline-block;
 }
 
-.badge.required-property,.badge.deprecated-property,.badge.pattern-property {
-    font-size: 60%;
+.badge.required-property,.badge.deprecated-property,.badge.pattern-property,.badge.no-additional {
+    font-size: 100%;
     margin-left: 10px;
 }
 
@@ -176,17 +180,125 @@ body {
 .highlight .vm { color: #bb60d5 } /* Name.Variable.Magic */
 .highlight .il { color: #40a070 } /* Literal.Number.Integer.Long */
 
-/* {% comment %} 2025-08-07 Thursday 15:50:16.  JMH> {% endcomment %} */
+/* JMH 2025-09-26 Friday 11:51:54 (Pac.) */
+/* Add arrow indicator to schema property buttons */
+button.property-name-button::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 0.4em;
+  transition: transform 0.2s ease;
+  font-size: 0.9em;
+  vertical-align: middle;
+  color: #555;
+  color: #000000;
+}
+
+/* Rotate arrow when expanded */
+button.property-name-button[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+  color: #0066ff;
+}
+
+/* No bold */
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+	padding: .25em .4em .1em .4em;
+	padding: .35em .4em .2em .4em;
+    font-size: 75%;
+	font-size: 15px !important;
+    font-weight: 700;
+	font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+
+    color: #000000;
+    background-color: #ffcc00;
+	background-color: #ffe680;
+	background-color: #ffd7b3;
+
+    background-color: #ffffcc;
+    background-color: #ffe6b3;
+}
+
+h1 {
+	background-color: #e8e8e8;
+	padding: .35em .4em .2em .4em;
+}
+
+/* Freeze the h1 at the top. */
+h1 {
+  position: sticky;
+  top: 0;
+  background: white; /* ensure it doesn’t overlap with text behind */
+  background: #f2f2f2;
+  background: linear-gradient(to right, #e6f2ff, #f2f8ff); /* soft light blues */
+  background: linear-gradient(to right, #cce6ff, #4da6ff);
+  background: linear-gradient(to right, #70dbdb, #4da6ff);
+  /* background: linear-gradient(to right, #4da6ff, #70dbdb); */
+  /* background: linear-gradient(to right, #80bfff, #70dbdb); */
+
+  /* background: linear-gradient(to right, #0066cc, #00b386); */
+  /* background: linear-gradient(to right, #0059b3, #66b3ff); */
+  background: linear-gradient(to right, #004d99, #66b3ff);
+  background: linear-gradient(to right, #004d99, #ffff99);
+  background: linear-gradient(to right, #0047b3, #80b3ff);
+  background: linear-gradient(to right, #003d99, #80b3ff);
+  background: linear-gradient(to right, #003d99, #99c2ff);
+  background: linear-gradient(to right, #0047b3, #99c2ff);
+
+  /* background: linear-gradient(to right, #000000, #f7f7f7); */
+  /* background: linear-gradient(to right, #f7f7f7, #000000); */
+
+  /* background: linear-gradient(to right, #3f38ad, #dc3d54); */
+
+  /* background: linear-gradient(to right, #000000, #202020); */
+
+  color: #ffffff;
+  /* color: #000000; */
+  border-radius: 5px;
+
+  z-index: 1000;     /* keep it above other content */
+  padding: 0.5em 0;  /* optional spacing */
+  padding: .35em .4em .2em .4em;
+  padding: .6em .4em .4em .4em;
+
+  border-bottom: 1px solid #ccc; /* optional visual divider */
+
+  font-size: 2.25rem;
+}
+
+/* This seems to handle the "One of" blocks, pun intended. */
+h2.handle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* 2025-09-26 Friday 15:27:20.  This is from the "flat" template's folder */
+
 .card-header {
     padding: 0px !important;
     /*padding: 10px !important;*/
     padding-left: 10px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
 }
 
 .card-body {
     padding: 0px !important;
     /*padding: 10px !important;*/
     padding-left: 10px !important;
+    /* 2025-09-26 Friday 17:24:36.  */
+    padding-top: 10px !important;
 }
 
 .markdown-body .highlight pre, .markdown-body pre {
@@ -199,4 +311,17 @@ body {
 
 .examples {
     padding: 10px !important;
+}
+
+
+/* 2025-09-26 Friday 15:35:12.  */
+.badge {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+/* 2025-09-26 Friday 15:49:02.   */
+button.property-name-button {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }

@@ -19,7 +19,7 @@ Each PURL type is specified in a JSON document that matches this schema. These J
 - [Interactive HTML ↗](/JSFH-htmls-2025-09-25-template_name=js/purl-type-definition.schema-1.0-2025-09-24-01.html) -->
 
 - <a href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-type-definition.schema-1.0.json" target="_blank">JSON Schema</a> `↗`
- - <a href="/JSFH-htmls-2025-09-25-template_name=js/purl-type-definition.schema-1.0-2025-09-25-01.html" target="_blank">Interactive HTML</a> `↗`
+- <a href="/schemas/purl-type-definition.schema-1.0.html" target="_blank">Interactive HTML</a> `↗`
 
 
 ## PURL Tests
@@ -41,7 +41,7 @@ The **PURL Test JSON Schema** provides the structure for test at two levels:
 - [Interactive HTML ↗](/JSFH-htmls-2025-09-25-template_name=js/purl-type-definition.schema-1.0-2025-09-24-01.html) -->
 
 - <a href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-test.schema.json" target="_blank">JSON Schema</a> `↗`
- - <a href="/JSFH-htmls-2025-09-25-template_name=js/purl-test.schema-2025-09-25-01.html" target="_blank">Interactive HTML</a> `↗`
+- <a href="/schemas/purl-test.schema.html" target="_blank">Interactive HTML</a> `↗`
 
 
 ## PURL Types Index
@@ -53,4 +53,4 @@ The **PURL Types Index Schema** is a simple list of each registered type.
 - 🌐 [Interactive HTML ↗](/schemas/purl-types-index.schema-1.0.html) -->
 
 - <a href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-types-index.schema.json" target="_blank">JSON Schema</a> `↗`
- - <a href="/JSFH-htmls-2025-09-25-template_name=js/purl-types-index.schema-1.0-2025-09-25-01.html" target="_blank">Interactive HTML</a> `↗`
+- <a href="/schemas/purl-types-index.schema-1.0.html" target="_blank">Interactive HTML</a> `↗`
