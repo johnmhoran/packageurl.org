@@ -255,13 +255,13 @@ h1 {
   background: linear-gradient(to right, #003d99, #80b3ff);
   background: linear-gradient(to right, #003d99, #99c2ff);
   background: linear-gradient(to right, #0047b3, #99c2ff);
-
-  /* background: linear-gradient(to right, #000000, #f7f7f7); */
-  /* background: linear-gradient(to right, #f7f7f7, #000000); */
-
-  /* background: linear-gradient(to right, #3f38ad, #dc3d54); */
-
-  /* background: linear-gradient(to right, #000000, #202020); */
+  /* 2025-10-01 Wednesday 17:12:26.  */
+  background: #0047b3;
+  background: #3b5998;
+  background: #1E3A8A;
+  background: #0070F3;
+  background: #3366cc;
+  background: #004d99;
 
   color: #ffffff;
   /* color: #000000; */
@@ -271,6 +271,8 @@ h1 {
   padding: 0.5em 0;  /* optional spacing */
   padding: .35em .4em .2em .4em;
   padding: .6em .4em .4em .4em;
+  /* 2025-10-01 Wednesday 17:11:09.  */
+  padding: .4em .4em .2em .4em;
 
   border-bottom: 1px solid #ccc; /* optional visual divider */
 
@@ -324,4 +326,9 @@ h2.handle {
 button.property-name-button {
     padding-top: 0px;
     padding-bottom: 0px;
+}
+
+/* 2025-10-01 Wednesday 17:16:41.   */
+.h4, h4 {
+    padding-top: 10px;
 }

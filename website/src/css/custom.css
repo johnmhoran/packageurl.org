@@ -151,3 +151,47 @@
 .footer__copyright {
   text-align: center !important;
 }
+
+/* 2025-10-01 Wednesday 17:04:33.  */
+.navbar--dark {
+    --ifm-navbar-background-color: #242526;
+    --ifm-navbar-background-color: #0047b3;
+    --ifm-navbar-background-color: #3b5998;
+    --ifm-navbar-background-color: #1E3A8A;
+    --ifm-navbar-background-color: #3366cc;
+    --ifm-navbar-background-color: #004d99;
+
+    --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+    --ifm-menu-color-background-active: rgba(255, 255, 255, 0.05);
+    --ifm-navbar-search-input-color: var(--ifm-color-white);
+}
+.navbar__link {
+    color: var(--ifm-navbar-link-color);
+    /* color: #f5f6f7; */
+    color: #ffffff;
+    font-weight: var(--ifm-font-weight-semibold);
+    font-weight: 400;
+}
+/* .navbar__link:hover, .navbar__link--active {
+    color: var(--ifm-navbar-link-hover-color);
+
+    -webkit-text-decoration: none;
+    text-decoration: none;
+} */
+
+.navbar__link:hover {
+    color: var(--ifm-navbar-link-hover-color);
+    color: #ffffff !important;
+    font-weight: 400;
+}
+.navbar__link--active {
+    color: var(--ifm-navbar-link-hover-color);
+    color: #ffffff !important;
+    /* color: #99ccff !important; */
+
+    -webkit-text-decoration: none;
+    text-decoration: none;
+
+    text-decoration: underline;
+    font-weight: 400;
+}
