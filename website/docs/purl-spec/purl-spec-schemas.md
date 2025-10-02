@@ -1,6 +1,6 @@
 ---
 id: purl-spec-schemas
-title: Package-URL JSON Schemass
+title: Package-URL JSON Schemas
 sidebar_label: Schemas
 ---
 
@@ -20,6 +20,18 @@ Each PURL type is specified in a JSON document that matches this schema. These J
 
 - <a href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-type-definition.schema-1.0.json" target="_blank">JSON Schema</a> `↗`
 - <a href="/schemas/purl-type-definition.schema-1.0.html" target="_blank">Interactive HTML</a> `↗`
+
+
+## PURL Types Index
+
+The **PURL Types Index Schema** is a simple list of each registered type.
+
+**PURL Types Index Schema**
+<!-- - 📄 [JSON Schema (main branch)](link-to-json)
+- 🌐 [Interactive HTML ↗](/schemas/purl-types-index.schema-1.0.html) -->
+
+- <a href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-types-index.schema.json" target="_blank">JSON Schema</a> `↗`
+- <a href="/schemas/purl-types-index.schema-1.0.html" target="_blank">Interactive HTML</a> `↗`
 
 
 ## PURL Tests
@@ -42,15 +54,3 @@ The **PURL Test JSON Schema** provides the structure for test at two levels:
 
 - <a href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-test.schema.json" target="_blank">JSON Schema</a> `↗`
 - <a href="/schemas/purl-test.schema.html" target="_blank">Interactive HTML</a> `↗`
-
-
-## PURL Types Index
-
-The **PURL Types Index Schema** is a simple list of each registered type.
-
-**PURL Types Index Schema**
-<!-- - 📄 [JSON Schema (main branch)](link-to-json)
-- 🌐 [Interactive HTML ↗](/schemas/purl-types-index.schema-1.0.html) -->
-
-- <a href="https://github.com/package-url/purl-spec/blob/main/schemas/purl-types-index.schema.json" target="_blank">JSON Schema</a> `↗`
-- <a href="/schemas/purl-types-index.schema-1.0.html" target="_blank">Interactive HTML</a> `↗`
