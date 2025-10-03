@@ -1,7 +1,5 @@
 # Adopters
 
-# Adopters
-
 (alphabetical order)
 
 - [Common Security Advisory Framework (CSAF)](https://docs.oasis-open.org/csaf/csaf/v2.0/os/csaf-v2.0-os.html#31232-branches-type---name-under-product-version-range):
