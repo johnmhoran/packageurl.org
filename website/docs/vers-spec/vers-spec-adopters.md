@@ -1,4 +1,21 @@
 # Adopters
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+# Adopters
+
+(alphabetical order)
+
+- [Common Security Advisory Framework (CSAF)](https://docs.oasis-open.org/csaf/csaf/v2.0/os/csaf-v2.0-os.html#31232-branches-type---name-under-product-version-range):
+  A language to exchange Security Advisories
+- [CycloneDX](https://github.com/CycloneDX): A lightweight software
+  bill-of-material (SBOM) specification
+- [Scancode.io](https://github.com/aboutcode-org/scancode.io): Collects
+  VERS from scanned and matched packages using https://github.com/aboutcode-org/univers
+- [Scancode Toolkit](https://github.com/aboutcode-org/scancode-toolkit):
+  Collects VERS from parsed package manifests using https://github.com/aboutcode-org/univers
+- [univers](https://github.com/aboutcode-org/univers): A Python
+  implementation of VERS
+- [URI-PackageURL](https://github.com/giterlizzi/perl-URI-PackageURL/tree/master/lib/URI/VersionRange):
+  A Perl implementation of PURL and VERS
+- [versatile](https://github.com/nscuro/versatile): A Java implementation
+  of VERS
+- [vers](https://github.com/andrew/vers/): A Ruby implementation of VERS
