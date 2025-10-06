@@ -66,7 +66,10 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
-                    sidebarPath: './sidebars.js',
+                    // sidebarPath: './sidebars.js',
+                    path: "docs",
+                    sidebarPath: require.resolve("./sidebars.js"),
+
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:

@@ -12,8 +12,6 @@
   background-blend-mode: overlay; */
 }
 
-
-
 /* @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
@@ -160,15 +158,12 @@
         linear-gradient(135deg, #0066ff 0%, #0066cc 100%),
         url('/img/6171317.jpg'); */
 
-    background-image:
-        linear-gradient(135deg, #666666 0%, #999999 100%),
-        url('/img/6171317.jpg');
+    background-image: linear-gradient(135deg, #666666 0%, #999999 100%), url('/img/6171317.jpg');
 
     /* background-image:
         url('/img/grok-abstract.svg'); */
 
     /* filter: brightness(200%); */
-
 
     color: #000000;
 }
@@ -187,6 +182,7 @@
     font-size: 1.25rem;
     font-size: 2rem;
     margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .heroButtons {
@@ -233,8 +229,7 @@
     padding: 1rem;
     border-radius: 8px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-    box-shadow: 0 0 6px #0000001A;
-
+    box-shadow: 0 0 6px #0000001a;
 }
 
 .callout {
@@ -283,7 +278,6 @@
     margin-bottom: 0.5rem;
 }
 
-
 /* 2025-09-20 Saturday 14:53:09.  */
 .packageGridWrapper {
     width: 100%;
@@ -305,4 +299,267 @@
 
     background-color: #f5f5f5;
     border-radius: 10px;
+}
+
+/* 2025-10-03 Friday 15:47:27.  Test. */
+/* .purlGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.purlCard {
+  background: #ffffff;
+  border: 1px solid #e0e6ef;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.purlCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.purlTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a3e7a;
+  margin-bottom: 0.5rem;
+}
+
+.purlDescription {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #444;
+} */
+
+/* 2025-10-03 Friday 16:19:55.  */
+/* .purlGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+} */
+
+/* 2025-10-03 Friday 16:45:33.  */
+/* .purlGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, max-content));
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+
+.packageCell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid #e0e6ef;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  color: #1a3e7a;
+}
+
+.packageCell:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  border-color: #3366cc;
+}
+
+.packageLogo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+}
+
+.packageCell span {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #1a3e7a;
+} */
+
+/* 2025-10-03 Friday 17:02:55.  */
+/* Container for the grid */
+.purlGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centers each row, including the last */
+    gap: 1.5rem;
+    gap: 0.5rem;
+    gap: 0rem;
+
+    padding: 2rem;
+    padding: 1rem;
+
+    margin: 0 auto;
+    /* max-width: 1200px; */
+}
+
+/* Each card / cell */
+.packageCell {
+    flex: 0 1 180px; /* grow: 0, shrink: 1, base width: 180px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    background: #ffffff;
+    border: 1px solid #e0e6ef;
+    border-radius: 12px;
+    padding: 1rem 1rem;
+    /* 2025-10-05 Sunday 11:32:36.  */
+    padding: 0.5rem !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    color: #1a3e7a;
+}
+
+.packageCell:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+    border-color: #3366cc;
+}
+
+/* Logo image inside the card */
+.packageLogo {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.75rem;
+    border-radius: 8px;
+}
+
+/* Text label */
+.packageCell span {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #1a3e7a;
+}
+
+/* a wrapper to display a background gradient behind the block of implementer cells */
+/* .purlGridWrapper {
+  background: linear-gradient(180deg, #f0f5fc 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #00ccff 0%, #ffcc66 100%);
+  background: linear-gradient(180deg, #f5f5f5 0%, #e5e5e5 100%);
+  padding: 2rem 1rem;
+} */
+
+/* 2025-10-03 Friday 17:14:39.  */
+/* Outer wrapper keeps some spacing from the page edges */
+.purlGridWrapper {
+    display: flex;
+    justify-content: center; /* centers the inner container */
+    padding: 2rem 1rem; /* vertical + horizontal padding */
+    padding: 1rem 1rem;
+}
+
+/* Constrain gradient to this container only */
+.purlGridContainer {
+    max-width: 1200px; /* matches your grid max-width */
+    width: 100%; /* responsive */
+    background: linear-gradient(180deg, #f0f5fc 0%, #ffffff 100%);
+    background: #f7f7f7;
+    border-radius: 8px;
+    padding: 2rem 1rem;
+    padding: 0.5rem 0.5rem;
+
+    box-shadow: inset 0 20px 40px -20px rgba(0, 0, 0, 0.05);
+}
+
+/* 2025-10-03 Friday 17:57:21.  Claude experiment. */
+/* Add this to your module.css file (e.g., index.module.css) */
+
+.pmGridWrapper {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.pmGridContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.pmGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+.pmCell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.pmCell:hover {
+    background-color: var(--ifm-hover-overlay);
+    transform: translateY(-2px);
+}
+
+.pmLogo {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.pmCell span {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+    .pmGrid {
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pmGrid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 1.25rem;
+    }
+
+    .pmCell {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .pmGrid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 1rem;
+    }
+
+    .pmLogo {
+        width: 56px;
+        height: 56px;
+    }
 }
