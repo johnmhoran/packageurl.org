@@ -324,3 +324,9 @@
         height: 56px;
     }
 }
+
+/* 2025-10-07 Tuesday 16:41:23.  Enlarge the tiny Arch Linux logo.  See the updated <img /> in index.js. */
+.packageLogo.alpm {
+  width: 64px;
+  height: 64px;
+}
