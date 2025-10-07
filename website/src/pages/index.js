@@ -28,8 +28,15 @@ export default function Home() {
     const packages = [
         {
             name: 'alpm',
-            url: '#',
-            logo: 'https://via.placeholder.com/48?text=ALPM',
+            // url: '#',
+            url: 'https://archlinux.org/',
+            // logo: 'https://via.placeholder.com/48?text=ALPM',
+            // Logo: 'https://archlinux.org/static/logos/archlinux-logo-dark-scalable.svg',
+            // logo: "/img/archlinux-logo-dark-scalable.svg",
+            // logo: "/img/archlinux-logo-dark-1200dpi.png",
+            // logo: "https://archlinux.org/static/logos/archlinux-logo-dark-scalable.svg",
+            logo: "/img/archlinux-logo-dark-90dpi.png",
+            // 2025-10-07 Tuesday 15:01:01.  See icons at https://archlinux.org/art/
         },
         {
             name: 'apk',
@@ -250,7 +257,8 @@ export default function Home() {
                                 rel="noopener noreferrer"
                                 className={styles.packageCell}
                             >
-                                <img src={pkg.logo} alt={pkg.name} className={styles.packageLogo} />
+                                {/* <img src={pkg.logo} alt={pkg.name} className={styles.packageLogo} /> */}
+                                <img src={pkg.logo} alt={pkg.name} className={`${styles.packageLogo} ${styles[pkg.name]}`} />
                                 <span>{pkg.name}</span>
                             </a>
                         ))}
