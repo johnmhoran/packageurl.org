@@ -3,57 +3,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-
-    /* CycloneDX primary background */
-    /* background-image:
-    linear-gradient(to right, #08090cff, #6A1B9A, #ff0055ff),
-    url('/img/background-image.png');
-  background-size: cover;
-  background-blend-mode: overlay; */
 }
-
-/* @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-    background: linear-gradient(135deg, #5c3db7 0%, #7f63d9 100%);
-    color: var(--ifm-color-primary-lightest);
-  }
-}
-
-.hero__title {
-  color: var(--ifm-color-primary-lightest);
-  margin-bottom: 0.5rem;
-}
-
-.hero__subtitle {
-  color: var(--ifm-color-primary-light);
-  font-weight: 400;
-  margin-bottom: 2rem;
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.buttons .button--secondary {
-  background-color: var(--ifm-color-primary-light);
-  color: var(--ifm-color-background);
-  border: none;
-  padding: 0.75rem 1.5rem;
-  font-weight: 600;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.buttons .button--secondary:hover {
-  background-color: var(--ifm-color-primary-lighter);
-  color: var(--ifm-color-background);
-  text-decoration: none;
-  cursor: pointer;
-} */
 
 /* 2025-09-08 Monday 08:51:40.  */
 .buttons .button--black {
@@ -83,88 +33,14 @@
 /* Hero full-width */
 .fullHero {
     width: 100%;
-    /* background: linear-gradient(135deg, #007BFF, #00C6FF); */
-    /* blue gradient */
-    /* background: linear-gradient(135deg, #0056b3, #0077cc); */
-    /* darker blue gradient */
-    /* background: linear-gradient(135deg, #003380, #0066ff); */
-    /* darker blue gradient */
-    /* background: linear-gradient(135deg, #003380, #cc0000); */
-    /* darker blue gradient */
-    /* 2025-08-30 Saturday 23:42:31.  I like this one: */
-    /* background: linear-gradient(135deg, #003399, #3377ff); */
-    /* darker blue gradient */
-
-    /* background: #1a427a; */
     color: white;
     text-align: center;
     padding: 4rem 2rem;
     padding: 2rem 2rem 1rem 2rem;
     padding: 2rem 2rem 2rem 2rem;
-
-    /* CycloneDX primary background */
-    /* background-image:
-        linear-gradient(to right, #08090cff, #6A1B9A, #ff0055ff),
-        url('/img/background-image.png'); */
-    /* linear-gradient(to right, #08090cff, #003399, #3377ff),
-        url('/img/background-image.png'); */
-    /* linear-gradient(to right, #000000, #006666, #003399),
-        url('/img/background-image.png'); */
-
-    /* background-image:
-        linear-gradient(to right, #08090cff, #6A1B9A, #ff0055ff),
-        url('/img/background-image.png'); */
-
     background-size: cover;
     background-blend-mode: overlay;
-
-    /* background: linear-gradient(135deg, #5c3db7 0%, #7f63d9 100%); */
-    /* color: var(--ifm-color-primary-lightest); */
-    /* color: #000000; */
-
-    /* background-image:
-        linear-gradient(135deg, #5c3db7 0%, #7f63d9 100%),
-        url('/img/background-image.png'); */
-
-    /* background-image:
-        linear-gradient(135deg, #3d2a7d 0%, #5c3db7 100%),
-        url('/img/background-image.png'); */
-
-    /* background-image:
-        linear-gradient(135deg, #000099 100%, #330000 100%),
-        url('/img/background-image.png'); */
-
-    /* background-image:
-        linear-gradient(to right, #08090cff),
-        url('/img/BackgroundPattern99.svg'); */
-
-    /* background-image:
-        linear-gradient(135deg, #66ccff),
-        url('/img/Seamless-Geometric-Line-Art-Pattern.svg'); */
-
-    /* background-image:
-        linear-gradient(to right, #009999, #000099),
-        url('/img/Seamless-Hexagonalism-Pattern.svg'); */
-
-    /* background-image:
-        linear-gradient(to right, #006666, #0022cc, #0099cc),
-        url('/img/Seamless-Tessellation-Pattern.svg'); */
-
-    /* background-image:
-        linear-gradient(to right, #006666, #0022cc, #0099cc),
-        url('/img/6171317.jpg'); */
-
-    /* background-image:
-        linear-gradient(135deg, #0066ff 0%, #0066cc 100%),
-        url('/img/6171317.jpg'); */
-
     background-image: linear-gradient(135deg, #666666 0%, #999999 100%), url('/img/6171317.jpg');
-
-    /* background-image:
-        url('/img/grok-abstract.svg'); */
-
-    /* filter: brightness(200%); */
-
     color: #000000;
 }
 
@@ -197,30 +73,22 @@
     max-width: 1200px;
     margin: 3rem auto;
     padding: 0 2rem;
-
     padding-top: 1rem;
     margin-top: 0;
-
-    /* background-color: #f5f5f5; */
     border-radius: 10px;
 }
-
-/* 2025-09-20 Saturday 15:37:12.  Try */
-/* .twoColumn {
-    margin-top: 1rem;
-} */
 
 .column h2 {
     margin-bottom: 1rem;
 }
 
-.card {
+/* .card {
     background: #f8f9fa;
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
+} */
 
 /* 2025-09-20 Saturday 15:31:45.  Try this instead to handle dark mode for the card */
 .card {
@@ -228,7 +96,6 @@
     color: var(--ifm-font-color-base);
     padding: 1rem;
     border-radius: 8px;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     box-shadow: 0 0 6px #0000001a;
 }
 
@@ -240,17 +107,6 @@
     border-radius: 6px;
     margin-bottom: 1rem;
     font-weight: 500;
-}
-
-/* 2025-09-20 Saturday 13:37:05.  Test the logo grid. */
-.packageGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* 4 columns */
-    gap: 2rem;
-    /* space between cells */
-    padding: 2rem;
-    text-align: center;
 }
 
 .packageCell {
@@ -286,115 +142,27 @@
     /* center the grid horizontally */
 }
 
+/* 2025-09-20 Saturday 13:37:05.  Test the logo grid. */
+/* .packageGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+} */
+
 .packageGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     max-width: 1200px;
-    /* sets a limit like your footer container */
-    width: 100%;
     /* allows it to shrink on smaller screens */
+    width: 100%;
     padding: 2rem;
-    /* padding-top: 1rem; */
-
     background-color: #f5f5f5;
     border-radius: 10px;
 }
 
-/* 2025-10-03 Friday 15:47:27.  Test. */
-/* .purlGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-  padding: 2rem;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-.purlCard {
-  background: #ffffff;
-  border: 1px solid #e0e6ef;
-  border-radius: 12px;
-  padding: 1.25rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.purlCard:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
-}
-
-.purlTitle {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #1a3e7a;
-  margin-bottom: 0.5rem;
-}
-
-.purlDescription {
-  font-size: 0.95rem;
-  line-height: 1.4;
-  color: #444;
-} */
-
-/* 2025-10-03 Friday 16:19:55.  */
-/* .purlGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-  justify-content: center;
-  padding: 2rem;
-  margin: 0 auto;
-  max-width: 1200px;
-} */
-
-/* 2025-10-03 Friday 16:45:33.  */
-/* .purlGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, max-content));
-  justify-content: center;
-  gap: 1rem;
-  padding: 2rem;
-  margin: 0 auto;
-}
-
-
-.packageCell {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  background: #ffffff;
-  border: 1px solid #e0e6ef;
-  border-radius: 12px;
-  padding: 1.5rem 1rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  color: #1a3e7a;
-}
-
-.packageCell:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
-  border-color: #3366cc;
-}
-
-.packageLogo {
-  width: 48px;
-  height: 48px;
-  margin-bottom: 0.75rem;
-  border-radius: 8px;
-}
-
-.packageCell span {
-  font-size: 1rem;
-  font-weight: 600;
-  text-align: center;
-  color: #1a3e7a;
-} */
 
 /* 2025-10-03 Friday 17:02:55.  */
 /* Container for the grid */
@@ -416,6 +184,7 @@
 /* Each card / cell */
 .packageCell {
     flex: 0 1 180px; /* grow: 0, shrink: 1, base width: 180px */
+    flex: 0 1 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -452,14 +221,6 @@
     text-align: center;
     color: #1a3e7a;
 }
-
-/* a wrapper to display a background gradient behind the block of implementer cells */
-/* .purlGridWrapper {
-  background: linear-gradient(180deg, #f0f5fc 0%, #ffffff 100%);
-  background: linear-gradient(180deg, #00ccff 0%, #ffcc66 100%);
-  background: linear-gradient(180deg, #f5f5f5 0%, #e5e5e5 100%);
-  padding: 2rem 1rem;
-} */
 
 /* 2025-10-03 Friday 17:14:39.  */
 /* Outer wrapper keeps some spacing from the page edges */

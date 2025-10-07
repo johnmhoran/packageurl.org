@@ -78,6 +78,22 @@
     text-decoration: underline;
 }
 
+/* 2025-10-07 Tuesday 09:30:44.  */
+/* .menu__link {
+    color: #0066ff;
+    color: #0052cc;
+    color: #ffffff !important;
+    font-size: 14px;
+    font-weight: normal;
+}
+.menu__link--active {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+.menu__link:hover {
+    text-decoration: underline;
+} */
+
 /* ====================================== */
 
 /* Try to fix the home/landing page navbar link color and behavior when selected. */
@@ -160,24 +176,20 @@
     --ifm-navbar-background-color: #1E3A8A;
     --ifm-navbar-background-color: #3366cc;
     --ifm-navbar-background-color: #004d99;
+    /* 2025-10-07 Tuesday 09:44:43.  */
+    --ifm-navbar-background-color: #375298;
 
     --ifm-navbar-link-hover-color: var(--ifm-color-primary);
     --ifm-menu-color-background-active: rgba(255, 255, 255, 0.05);
     --ifm-navbar-search-input-color: var(--ifm-color-white);
 }
-.navbar__link {
+/* .navbar__link {
     color: var(--ifm-navbar-link-color);
-    /* color: #f5f6f7; */
     color: #ffffff;
     font-weight: var(--ifm-font-weight-semibold);
     font-weight: 400;
 }
-/* .navbar__link:hover, .navbar__link--active {
-    color: var(--ifm-navbar-link-hover-color);
 
-    -webkit-text-decoration: none;
-    text-decoration: none;
-} */
 
 .navbar__link:hover {
     color: var(--ifm-navbar-link-hover-color);
@@ -187,11 +199,65 @@
 .navbar__link--active {
     color: var(--ifm-navbar-link-hover-color);
     color: #ffffff !important;
-    /* color: #99ccff !important; */
 
     -webkit-text-decoration: none;
     text-decoration: none;
 
     text-decoration: underline;
     font-weight: 400;
+} */
+
+/* 2025-10-07 Tuesday 10:08:25.  Consolidate navbar and sidebar CSS. */
+/* NAVBAR (full width) */
+.navbar {
+  background-color: #3366cc;
+  background-color: #375298;
+}
+.navbar .navbar__link {
+  color: #ffffff;
+  font-weight: 400;
+}
+.navbar .navbar__link:hover,
+.navbar .navbar__link--active {
+  color: #ffeb3b;
+  color: #ffffff !important;
+
+  text-decoration: underline;
+}
+
+/* DOCS SIDEBAR (desktop view) */
+.theme-doc-sidebar-menu .menu__link {
+  color: #000000;
+}
+.theme-doc-sidebar-menu .menu__link:hover,
+.theme-doc-sidebar-menu .menu__link--active {
+  color: #3366cc;
+}
+
+/* MOBILE NAV MENU */
+@media (max-width: 996px) {
+  .menu__link {
+    color: #ffffff;
+    background-color: #3366cc;
+    background-color: #375298;
+
+    font-weight: 400;
+  }
+  .menu__link:hover,
+  .menu__link--active {
+    color: #ffeb3b;
+    color: #ffffff;
+
+    text-decoration: underline;
+    background-color: #000000;
+  }
+
+  /* sidebar */
+  .theme-doc-sidebar-menu .menu__link {
+    color: #ffffff;
+  }
+  .theme-doc-sidebar-menu .menu__link:hover,
+  .theme-doc-sidebar-menu .menu__link--active {
+    color: #ffffff;
+  }
 }

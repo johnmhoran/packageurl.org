@@ -51,9 +51,10 @@ const sidebars = {
     // Group 5
     about: [
         'about/about-guiding-principles',
+        'about/about-governance',
         'about/about-supporters',
-        'about/about-related-specs',
         'about/about-history',
+        'about/about-branding',
     ],
 
     // test_nesting: [
