@@ -205,7 +205,7 @@ export default function Home() {
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'center', padding: 0, marginTop: 30 }}>
-                <h1 style={{ marginBottom: 0 }}>Package-URL (PURL) implementations</h1>
+                <h1 style={{ marginBottom: 0 }}>Registered PURL Types</h1>
             </div>
 
             <div className={styles.purlGridWrapper}>
