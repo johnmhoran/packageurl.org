@@ -125,9 +125,11 @@ const config = {
 
                     {
                         type: 'docSidebar',
-                        sidebarId: 'package_url',
+                        // sidebarId: 'package_url',
+                        sidebarId: 'getting_started',
                         position: 'left',
-                        label: 'Package-URL',
+                        // label: 'Package-URL',
+                        label: 'Getting Started',
                     },
                     {
                         type: 'docSidebar',

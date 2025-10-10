@@ -17,11 +17,19 @@ const sidebars = {
     //       label: 'PURL Standard',
     //     },
     //   ],
+
     // New group 1
-    package_url: [
-        'package-url/package-url-overview',
-        'package-url/package-url-purl-and-vers',
-        'package-url/package-url-projects',
+    // package_url: [
+    //     'package-url/package-url-overview',
+    //     'package-url/package-url-purl-and-vers',
+    //     'package-url/package-url-projects',
+    // ],
+
+    // 2025-10-10 Friday 11:57:42.  Replace package_url with getting_started
+    getting_started: [
+        'getting-started/getting-started-intro',
+        'getting-started/getting-started-use-cases',
+        'getting-started/getting-started-tools',
     ],
 
     // New group 2
